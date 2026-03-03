@@ -3507,6 +3507,12 @@
 		(uuid "87899267-7e42-4694-af11-241e1392904b")
 	)
 	(junction
+		(at 54.61 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89671032-4e8c-425e-b4a3-e19acbf77bc0")
+	)
+	(junction
 		(at 41.91 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4112,7 +4118,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 52.07) (xy 59.69 52.07)
+			(xy 41.91 52.07) (xy 54.61 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5272,6 +5278,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 52.07) (xy 59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8618f25-6fe8-44e3-8f64-f80abef47c07")
+	)
+	(wire
+		(pts
 			(xy 104.14 166.37) (xy 104.14 168.91)
 		)
 		(stroke
@@ -5761,7 +5777,7 @@
 		(uuid "1e4b7dd7-ba50-44ed-9b5d-072a0855ced7")
 	)
 	(label "BATT-"
-		(at 50.8 52.07 0)
+		(at 45.72 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10119,6 +10135,71 @@
 			(project "STDC"
 				(path "/643c756f-a801-466b-9148-7370ee6a5e00/6fbfac7b-b6a0-440e-84eb-56b1f74b7943"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef3be742-bec6-47d2-a56a-e145bc6927cf")
+		(property "Reference" "#FLG06"
+			(at 54.61 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a5c0ab0-ae9d-4b1f-80aa-45780f7002ae")
+		)
+		(instances
+			(project "STDC"
+				(path "/643c756f-a801-466b-9148-7370ee6a5e00/6fbfac7b-b6a0-440e-84eb-56b1f74b7943"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
