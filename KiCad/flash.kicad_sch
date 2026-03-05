@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "65296c82-8b71-4109-a8ac-30240b5024c1")
 	(paper "A4")
+	(title_block
+		(title "STDC: Flash")
+		(date "2026-03-05")
+		(rev "0.0.1")
+		(company "ETH Zurich: Center for Project Based Learning")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers

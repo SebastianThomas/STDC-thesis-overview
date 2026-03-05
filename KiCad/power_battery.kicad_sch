@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "607032a4-86e5-4fb1-ae0f-362ffd68e92a")
 	(paper "A4")
+	(title_block
+		(title "STDC: Power & Battery")
+		(date "2026-03-05")
+		(rev "0.0.1")
+		(company "ETH Zurich: Center for Project Based Learning")
+	)
 	(lib_symbols
 		(symbol "BQ26221PW:BQ26221PW"
 			(exclude_from_sim no)
