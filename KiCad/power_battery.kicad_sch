@@ -3184,9 +3184,9 @@
 		)
 		(uuid "239d2a52-85b7-44b7-83c9-28be3c270a30")
 	)
-	(text "I_{BULk}=800mA\nR_{ILIM}=393R/(0.8A)=393R\nR_{FOD} = 220R => R_ILIM=173R"
+	(text "R_{FOD} = 220R => R_ILIM=150R => 370R\nclose to 375R target\nI_{BULk}=K_{ILIM} / R_{ILIM} = 300 / 370 = 811mA = 0.8A"
 		(exclude_from_sim no)
-		(at 159.004 145.034 0)
+		(at 142.494 136.144 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3234,6 +3234,16 @@
 		)
 		(uuid "467c62f7-c95e-4ccf-8f64-f641ed8d128c")
 	)
+	(text "TODO: Where should this \n(FGND) tie to?"
+		(exclude_from_sim no)
+		(at 266.7 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ce06ef8-f672-4baf-b3ff-f394ad25ff6a")
+	)
 	(text "Wireless Charging RX Coil"
 		(exclude_from_sim no)
 		(at 22.352 110.744 90)
@@ -3253,6 +3263,16 @@
 			)
 		)
 		(uuid "5e637bbf-61bd-4e6a-9338-48c36a378cb4")
+	)
+	(text "R_{TERM}: Original 2k4, \nwith 2k2: 9.17% Term Current\nwith 2k4: 10% Term Current"
+		(exclude_from_sim no)
+		(at 192.278 144.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c7852d9-dfd5-42c2-bd10-1e2d82618a81")
 	)
 	(text "TODO: Recheck \nbattery polarity"
 		(exclude_from_sim no)
@@ -6864,15 +6884,15 @@
 		(dnp no)
 		(uuid "193dbdab-4f89-4eb5-bec9-b1e2e9e1b82f")
 		(property "Reference" "R11"
-			(at 183.642 92.456 90)
+			(at 182.372 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 187.96 92.456 90)
+		(property "Value" "680R"
+			(at 188.468 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7615,7 +7635,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "150R"
 			(at 49.53 37.338 90)
 			(effects
 				(font
@@ -7958,7 +7978,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "220R"
 			(at 170.18 137.16 0)
 			(effects
 				(font
@@ -8159,7 +8179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.4k"
+		(property "Value" "2k2"
 			(at 179.07 137.16 0)
 			(effects
 				(font
