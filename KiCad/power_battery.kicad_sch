@@ -5588,16 +5588,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 166.37) (xy 25.4 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9bd1b4d-4d44-4d6c-b4dc-f87938bb8682")
-	)
-	(wire
-		(pts
 			(xy 59.69 52.07) (xy 66.04 52.07)
 		)
 		(stroke
@@ -7406,7 +7396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 141.9352 62.23 0)
 			(effects
 				(font

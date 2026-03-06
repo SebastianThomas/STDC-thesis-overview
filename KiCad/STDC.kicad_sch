@@ -3473,6 +3473,18 @@
 		)
 		(uuid 02c870ea-9f74-4fd9-b0ad-78f5de6a5706)
 	)
+	(rectangle
+		(start 78.74 165.1)
+		(end 116.84 187.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2c5e52f3-b92a-45ae-8d4e-cc6887d45679)
+	)
 	(text "TODO: Pads instead of Connector"
 		(exclude_from_sim no)
 		(at 232.156 60.198 0)
@@ -3483,15 +3495,15 @@
 		)
 		(uuid "033c642c-a69c-4d02-8406-f05157ca203f")
 	)
-	(text "TODO: JTAG Pads 10pin J-Link \n=> get KiCad Library?"
+	(text "JTDI only for 5-wire JTAG \nwhich is not possible with \nthe 6-wire connector"
 		(exclude_from_sim no)
-		(at 244.348 82.55 0)
+		(at 193.04 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "4b15d007-58f7-4fc4-ad0a-5cca679ffe5b")
+		(uuid "04e5ff9b-e389-4b8c-ae00-c672764ccb46")
 	)
 	(text "TODO: More Test LEDs"
 		(exclude_from_sim no)
@@ -3503,9 +3515,19 @@
 		)
 		(uuid "4dc16dab-d5ee-4554-bf54-4fb23743c1cb")
 	)
+	(text "JTAG"
+		(exclude_from_sim no)
+		(at 86.106 166.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "533362ea-fe40-4da3-8889-b03c2d8bf818")
+	)
 	(text "TODO: Open-Drain"
 		(exclude_from_sim no)
-		(at 65.278 86.36 0)
+		(at 72.39 87.122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3700,6 +3722,10 @@
 		(uuid "5fcd6092-6080-4fa4-8a76-295ffab2663b")
 	)
 	(no_connect
+		(at 177.8 83.82)
+		(uuid "78bf8044-3963-4af7-8579-0b9f59500a35")
+	)
+	(no_connect
 		(at 130.81 68.58)
 		(uuid "8bbf5eb4-a0a9-497e-ad0b-96b6ee344c87")
 	)
@@ -3803,6 +3829,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 175.26) (xy 114.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c0af66-1e38-4a41-8213-24d2c2969c61")
+	)
+	(wire
+		(pts
 			(xy 119.38 130.81) (xy 119.38 129.54)
 		)
 		(stroke
@@ -3810,6 +3846,16 @@
 			(type default)
 		)
 		(uuid "0afe1178-b47b-4e1a-af69-8c5eaa3fab44")
+	)
+	(wire
+		(pts
+			(xy 83.82 175.26) (xy 91.44 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4bd201-4fbb-4bc5-a3e1-fbc484a113d8")
 	)
 	(wire
 		(pts
@@ -4030,6 +4076,16 @@
 			(type default)
 		)
 		(uuid "333c1205-939c-4d77-ada1-9bfa909a5150")
+	)
+	(wire
+		(pts
+			(xy 104.14 177.8) (xy 114.3 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35508920-8891-480d-bbaf-45765fcdae81")
 	)
 	(wire
 		(pts
@@ -4473,6 +4529,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 180.34) (xy 83.82 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26cd4cd-1337-4b7a-92a8-559d32e2dea8")
+	)
+	(wire
+		(pts
 			(xy 173.99 127) (xy 189.23 127)
 		)
 		(stroke
@@ -4663,6 +4729,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 177.8) (xy 91.44 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdcacad5-8b3a-4222-b597-a61f95647536")
+	)
+	(wire
+		(pts
 			(xy 148.59 137.16) (xy 148.59 135.89)
 		)
 		(stroke
@@ -4733,6 +4809,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 180.34) (xy 83.82 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1fde5e1-fc60-4f33-a292-a1cbc2afdf65")
+	)
+	(wire
+		(pts
 			(xy 128.27 85.09) (xy 128.27 83.82)
 		)
 		(stroke
@@ -4780,6 +4866,16 @@
 			(type default)
 		)
 		(uuid "d82a54ed-e2f3-4e80-ac33-04ba4863fde0")
+	)
+	(wire
+		(pts
+			(xy 83.82 172.72) (xy 83.82 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d9ebdb-fbf7-48de-bd7c-fe8b09886b11")
 	)
 	(wire
 		(pts
@@ -5013,6 +5109,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 180.34) (xy 114.3 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8c32c5-5294-41e9-b07f-9e78156dc337")
+	)
+	(wire
+		(pts
 			(xy 48.26 82.55) (xy 48.26 85.09)
 		)
 		(stroke
@@ -5051,6 +5157,16 @@
 		)
 		(uuid "117a7af6-c41d-464e-b0c1-ce51bddd85b5")
 	)
+	(label "JTDO_SWO"
+		(at 114.3 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "213e8f39-7b74-41ba-8c24-6cc7456387a3")
+	)
 	(label "Debug_UART_RX"
 		(at 172.72 68.58 0)
 		(effects
@@ -5071,6 +5187,16 @@
 		)
 		(uuid "26932f76-3e1d-424a-8ab4-7ec4fe93744f")
 	)
+	(label "SWDIO"
+		(at 114.3 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "427317bf-4891-478c-8b49-43edf6134b98")
+	)
 	(label "Blue_LED_3V3"
 		(at 80.01 82.55 0)
 		(effects
@@ -5081,6 +5207,16 @@
 		)
 		(uuid "45ecd0d7-b872-49e6-89e3-983af05d1281")
 	)
+	(label "JTRST"
+		(at 83.82 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56dd7d6f-8a94-4be6-afde-7c5a0e01e10e")
+	)
 	(label "BAT_STATUS_HDQ"
 		(at 91.44 71.12 0)
 		(effects
@@ -5090,6 +5226,16 @@
 			(justify left bottom)
 		)
 		(uuid "61da70a9-20ff-4622-8622-ddfa7c3046de")
+	)
+	(label "SWDCK"
+		(at 114.3 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6209e99a-b5a6-4e8a-b512-c104638cfa8c")
 	)
 	(label "Debug_UART_TX"
 		(at 172.72 66.04 0)
@@ -6053,8 +6199,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 83.82 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fe042a6-1365-4248-be12-c24607328fbb")
+		(property "Reference" "#PWR07"
+			(at 83.82 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a25cd92-6f60-4a4d-8f62-ee5bbddfbd4f")
+		)
+		(instances
+			(project ""
+				(path "/643c756f-a801-466b-9148-7370ee6a5e00"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TC2030")
-		(at 201.93 83.82 0)
+		(at 96.52 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6062,7 +6273,7 @@
 		(dnp no)
 		(uuid "5383541b-c5cb-402b-890c-c4b8a8d43ac8")
 		(property "Reference" "J2"
-			(at 203.2 73.406 0)
+			(at 97.79 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6281,7 @@
 			)
 		)
 		(property "Value" "TC2030"
-			(at 203.2 74.93 0)
+			(at 97.79 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +6289,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 203.2 83.82 0)
+			(at 97.79 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6298,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
-			(at 203.2 83.82 0)
+			(at 97.79 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +6307,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect’s 6-pins connector"
-			(at 201.93 83.82 0)
+			(at 96.52 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,6 +6689,71 @@
 			(project ""
 				(path "/643c756f-a801-466b-9148-7370ee6a5e00"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 83.82 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7df2d268-a8f6-4087-a02f-2ba1d625b316")
+		(property "Reference" "#PWR010"
+			(at 83.82 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 83.82 169.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20298a8a-db6c-4fca-b16f-b64ff626c5b4")
+		)
+		(instances
+			(project ""
+				(path "/643c756f-a801-466b-9148-7370ee6a5e00"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
