@@ -793,16 +793,6 @@
 		)
 		(uuid a9bd85a2-b967-41b2-a58b-330eb902b4e9)
 	)
-	(text "TODO: SD-Card?\nMemory Swap for DFU OTA"
-		(exclude_from_sim no)
-		(at 166.878 86.868 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7de476d6-11e3-46c7-a930-3e54b369c8e2")
-	)
 	(junction
 		(at 194.31 44.45)
 		(diameter 0)
