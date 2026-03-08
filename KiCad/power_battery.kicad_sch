@@ -7639,7 +7639,7 @@
 		(at 25.4 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "26b07241-776e-4405-b5e9-ba55dbd33de0")
@@ -10614,7 +10614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2n"
+		(property "Value" "2n2"
 			(at 78.994 113.03 0)
 			(effects
 				(font

@@ -2804,7 +2804,7 @@
 	)
 	(text "Ripple current = 0.5A, peak current = 0.35A\nSaturation Current LX4 >= 0.35A (use 1A)"
 		(exclude_from_sim no)
-		(at 243.078 91.694 0)
+		(at 243.586 87.376 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -2822,9 +2822,9 @@
 		)
 		(uuid "2645b25c-96f5-4673-b05b-c821d734cfb2")
 	)
-	(text "V_{out}=V_{FB}×(R1+R2)/R1\nV_{FB} = 1.238\n(17/1.238)=13.73\nR2=12.73×R1\n(200k/16k)=12.5"
+	(text "V_{out}=V_{FB}×(R1+R2)/R1\nV_{FB} = 1.238\n1.238 * (1 + 200k/15k) = 17.03"
 		(exclude_from_sim no)
-		(at 242.062 83.058 0)
+		(at 243.078 80.518 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2841,6 +2841,16 @@
 			)
 		)
 		(uuid "59b07fd9-af0e-4037-95cb-7c398be07996")
+	)
+	(text "29: R_{IREF} = (V_{IREF} - V_{SS}) / I_{REF}\nV_{IREF} = 17V - 3V\nI_{REF} = 10uA\n=> R_{IREF} = (17V - 3V) / 10uA = 1M4 R\n=> 1M5 about 7% dimmer\n1M2 recommended by manufacturer\n1M still within bounds but 223uA vs 149uA consumption"
+		(exclude_from_sim no)
+		(at 218.694 122.428 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2ad3986-5788-4545-9f6a-b3104e93b716")
 	)
 	(junction
 		(at 166.37 63.5)
@@ -6328,7 +6338,7 @@
 				)
 			)
 		)
-		(property "Value" "16k"
+		(property "Value" "15k"
 			(at 266.446 62.484 90)
 			(effects
 				(font
@@ -8324,7 +8334,7 @@
 				)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "220k"
 			(at 216.154 62.484 90)
 			(effects
 				(font
@@ -8817,7 +8827,7 @@
 				)
 			)
 		)
-		(property "Value" "1M2"
+		(property "Value" "1M5"
 			(at 163.068 113.538 90)
 			(effects
 				(font
