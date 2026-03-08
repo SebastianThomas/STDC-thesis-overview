@@ -1342,7 +1342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd354a65-22c8-456f-a5bc-d3cb60626d1f")
-		(property "Reference" "C61"
+		(property "Reference" "C63"
 			(at 196.85 66.04 0)
 			(effects
 				(font
@@ -1396,7 +1396,7 @@
 		(instances
 			(project "STDC"
 				(path "/643c756f-a801-466b-9148-7370ee6a5e00/a5768ca1-322e-4c77-bc87-c3070b355a8f"
-					(reference "C61")
+					(reference "C63")
 					(unit 1)
 				)
 			)

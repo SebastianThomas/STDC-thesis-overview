@@ -2802,15 +2802,15 @@
 		)
 		(uuid 7759cfc3-6e32-44ee-9ee9-3d12b876f320)
 	)
-	(text "TODO: Check Peak \nSaturation Current\nthrough L4"
+	(text "Ripple current = 0.5A, peak current = 0.35A\nSaturation Current LX4 >= 0.35A (use 1A)"
 		(exclude_from_sim no)
-		(at 242.57 95.758 0)
+		(at 243.078 91.694 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.635 0.635)
 			)
 		)
-		(uuid "01c02076-ca0c-4518-a86f-de0d44d0c767")
+		(uuid "08f4d814-047f-476b-aa6b-3d238469f4d3")
 	)
 	(text "1.8V with Power Decoupling\nfor Display VDDIO"
 		(exclude_from_sim no)
@@ -3011,6 +3011,12 @@
 		(uuid "630e8033-794b-41ef-8b75-0e28567503ff")
 	)
 	(junction
+		(at 121.92 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68b505db-32fd-4052-beef-c1d2b265726c")
+	)
+	(junction
 		(at 166.37 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3027,6 +3033,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71a2c005-63bd-4bf8-94f0-ba5daf85f845")
+	)
+	(junction
+		(at 129.54 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7209db32-3907-42a3-87bb-7a0ed079b31b")
 	)
 	(junction
 		(at 166.37 120.65)
@@ -3143,6 +3155,12 @@
 		(uuid "e2e441d7-c207-4158-95e6-931e50d0bd8b")
 	)
 	(junction
+		(at 129.54 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8980497-f370-43a0-b0c3-fa1ea12454b0")
+	)
+	(junction
 		(at 113.03 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3165,6 +3183,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec39ede6-66fa-4d28-a127-672fabb3e094")
+	)
+	(junction
+		(at 121.92 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f52d8c88-551b-4873-88a3-7d4515e630cc")
 	)
 	(junction
 		(at 166.37 107.95)
@@ -3436,6 +3460,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 125.73) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3707ac-84f4-427c-95e5-42852bb410cf")
+	)
+	(wire
+		(pts
 			(xy 137.16 25.4) (xy 137.16 26.67)
 		)
 		(stroke
@@ -3536,6 +3570,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 125.73) (xy 129.54 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e895c87-a7da-4165-8c98-799bf486b5f1")
+	)
+	(wire
+		(pts
 			(xy 90.17 31.75) (xy 93.98 31.75)
 		)
 		(stroke
@@ -3543,6 +3587,16 @@
 			(type default)
 		)
 		(uuid "4038cf12-2fcc-424d-ac9e-10c7e50aa39d")
+	)
+	(wire
+		(pts
+			(xy 121.92 134.62) (xy 121.92 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403c62dc-447d-41eb-8136-20c18d95dea5")
 	)
 	(wire
 		(pts
@@ -3676,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 125.73) (xy 181.61 125.73)
+			(xy 105.41 125.73) (xy 121.92 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3823,6 +3877,16 @@
 			(type default)
 		)
 		(uuid "644749e2-ac18-4482-b7ad-81b1482bc39e")
+	)
+	(wire
+		(pts
+			(xy 129.54 134.62) (xy 129.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64728d24-f9e4-4c9f-871f-8b7871ca2b30")
 	)
 	(wire
 		(pts
@@ -4176,6 +4240,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 135.89) (xy 166.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c5f6e9-449a-4430-89b3-86de726c3a7b")
+	)
+	(wire
+		(pts
 			(xy 194.31 25.4) (xy 196.85 25.4)
 		)
 		(stroke
@@ -4236,7 +4310,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 135.89) (xy 166.37 135.89)
+			(xy 113.03 135.89) (xy 121.92 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4776,6 +4850,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 135.89) (xy 129.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b699f3-6d28-438c-ac86-f67e7fe22bf5")
+	)
+	(wire
+		(pts
 			(xy 166.37 120.65) (xy 181.61 120.65)
 		)
 		(stroke
@@ -4843,6 +4927,16 @@
 			(type default)
 		)
 		(uuid "e373d003-7bf7-48b5-be4c-c85f97ec6f4d")
+	)
+	(wire
+		(pts
+			(xy 121.92 125.73) (xy 129.54 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c32e05-dd4e-431f-93ee-15269e650397")
 	)
 	(wire
 		(pts
@@ -4996,6 +5090,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 125.73) (xy 181.61 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c34ad3-230f-4e27-867b-37dd83ce19ad")
+	)
+	(wire
+		(pts
 			(xy 212.09 76.2) (xy 212.09 78.74)
 		)
 		(stroke
@@ -5123,6 +5227,16 @@
 			(justify left bottom)
 		)
 		(uuid "5cacc2ea-f93d-481b-b4b7-5d73009799fb")
+	)
+	(label "LX4"
+		(at 250.19 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67bb4988-fc2c-41af-8b47-ab76d13e8620")
 	)
 	(label "VSL"
 		(at 168.91 59.69 0)
@@ -5992,6 +6106,75 @@
 			(project "STDC"
 				(path "/643c756f-a801-466b-9148-7370ee6a5e00/603cffac-84d5-485b-bf95-e3987997ef84"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.92 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "392af7f3-06ca-4167-a725-e7f385f40a5e")
+		(property "Reference" "C53"
+			(at 122.174 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 122.174 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 122.8852 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ca84f4c-a564-4f10-9f43-96f7cd088f49")
+		)
+		(pin "1"
+			(uuid "b45c87eb-664c-41b5-9353-73b879e7f7a3")
+		)
+		(instances
+			(project "STDC"
+				(path "/643c756f-a801-466b-9148-7370ee6a5e00/603cffac-84d5-485b-bf95-e3987997ef84"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -8271,6 +8454,75 @@
 			(project "STDC"
 				(path "/643c756f-a801-466b-9148-7370ee6a5e00/603cffac-84d5-485b-bf95-e3987997ef84"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 129.54 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da7ae1d9-d834-441d-995c-8065e385c10c")
+		(property "Reference" "C54"
+			(at 129.794 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 129.794 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 130.5052 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 129.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b45106a-3f44-4f72-b7f6-a1e89d466dcc")
+		)
+		(pin "1"
+			(uuid "14c635bb-d5c6-4092-8632-b166114f4479")
+		)
+		(instances
+			(project "STDC"
+				(path "/643c756f-a801-466b-9148-7370ee6a5e00/603cffac-84d5-485b-bf95-e3987997ef84"
+					(reference "C54")
 					(unit 1)
 				)
 			)
