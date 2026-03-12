@@ -6,4 +6,7 @@
   (lib (name "MS5849-30BA")(type "KiCad")(uri "${KIPRJMOD}/libs/MS5849-30BA")(options "")(descr "MS5849-30BA Pressure Sensor"))
   (lib (name "LIB_R1200N001A-TR-FE")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_R1200N001A-TR-FE")(options "")(descr "DC-DC Converter OLED 17V"))
   (lib (name "L_IWAS4832-QiCoil")(type "KiCad")(uri "${KIPRJMOD}/libs/L_IWAS4832-QiCoil")(options "")(descr "IWAS4832 Qi Receiver Coil"))
+  (lib (name "RB522ES-30T15R")(type "KiCad")(uri "${KIPRJMOD}/libs/RB522ES-30T15R")(options "")(descr "RB480K replacement Schottky Diode"))
+  (lib (name "MAX17262REWL_T")(type "KiCad")(uri "${KIPRJMOD}/libs/MAX17262REWL_T")(options "")(descr "Battery Gauge IC"))
+  (lib (name "TPS22916CNYFPR")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS22916CNYFPR")(options "")(descr ""))
 )

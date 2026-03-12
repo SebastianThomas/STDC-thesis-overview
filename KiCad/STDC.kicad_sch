@@ -3001,10 +3001,6 @@
 		(uuid "78bf8044-3963-4af7-8579-0b9f59500a35")
 	)
 	(no_connect
-		(at 130.81 68.58)
-		(uuid "8bbf5eb4-a0a9-497e-ad0b-96b6ee344c87")
-	)
-	(no_connect
 		(at 130.81 76.2)
 		(uuid "8cf5daeb-14a7-4b59-9b06-8c6c55b93822")
 	)
@@ -3480,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 86.36) (xy 105.41 86.36)
+			(xy 85.09 86.36) (xy 106.68 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3530,6 +3526,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 83.82) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554f6310-dfb4-4a1a-be7a-d6bc86d4527b")
+	)
+	(wire
+		(pts
 			(xy 130.81 106.68) (xy 119.38 106.68)
 		)
 		(stroke
@@ -3540,7 +3546,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 88.9) (xy 85.09 88.9)
+			(xy 85.09 88.9) (xy 130.81 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3590,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 71.12) (xy 130.81 71.12)
+			(xy 106.68 71.12) (xy 130.81 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3630,7 +3636,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 105.41 71.12)
+			(xy 104.14 83.82) (xy 104.14 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670ef0bd-db8a-4cd2-8b2e-d3ae3b46bf5a")
+	)
+	(wire
+		(pts
+			(xy 106.68 86.36) (xy 106.68 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3707,6 +3723,16 @@
 			(type default)
 		)
 		(uuid "822f1865-4bfd-45c6-834b-3f5bb1991e1c")
+	)
+	(wire
+		(pts
+			(xy 104.14 68.58) (xy 130.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c7feac-a33b-46a5-959c-6e778baff9b5")
 	)
 	(wire
 		(pts
@@ -4417,16 +4443,6 @@
 			(justify left bottom)
 		)
 		(uuid "56dd7d6f-8a94-4be6-afde-7c5a0e01e10e")
-	)
-	(label "BAT_STATUS_HDQ"
-		(at 113.03 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61da70a9-20ff-4622-8622-ddfa7c3046de")
 	)
 	(label "SWDCK"
 		(at 66.04 160.02 180)
@@ -7154,8 +7170,8 @@
 		)
 	)
 	(sheet
-		(at 63.5 85.09)
-		(size 21.59 7.62)
+		(at 63.5 82.55)
+		(size 21.59 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7170,7 +7186,7 @@
 		)
 		(uuid "6fbfac7b-b6a0-440e-84eb-56b1f74b7943")
 		(property "Sheetname" "Power+Battery"
-			(at 63.5 84.3784 0)
+			(at 63.5 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,16 +7203,6 @@
 				(justify left top)
 			)
 		)
-		(pin "BATT_STATUS_HDQ" input
-			(at 85.09 86.36 0)
-			(uuid "92abfa28-9731-49a8-9355-f04dbd52b373")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "{slash}RED_LED" input
 			(at 85.09 91.44 0)
 			(uuid "04d55e71-b724-4102-ba69-c6739aa662e6")
@@ -7210,6 +7216,26 @@
 		(pin "{slash}BLUE_LED" input
 			(at 85.09 88.9 0)
 			(uuid "c804acf1-c084-4f6b-9252-7e79f7908827")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Batt_Status_SCL" input
+			(at 85.09 83.82 0)
+			(uuid "6e493cfd-555b-4937-8975-83b1f03da0b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Batt_Status_SDA" input
+			(at 85.09 86.36 0)
+			(uuid "357b0018-f40f-41ad-8ac2-98dd2582315c")
 			(effects
 				(font
 					(size 1.27 1.27)
