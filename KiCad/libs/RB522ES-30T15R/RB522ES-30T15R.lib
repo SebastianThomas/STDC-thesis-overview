@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RB522ES-30T15R
+#/1849452/1780962/2.50/2/4/Schottky Diode
+DEF RB522ES-30T15R D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "RB522ES-30T15R" 500 250 50 H V L CNN
+F2 "RB522ES30" 500 150 50 H I L CNN
+F3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb522es-30-e.pdf" 500 50 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers SBD 30V Vrm 100mA Id SMD0603" 500 -50 50 H I L CNN "Description"
+F5 "0" 500 -150 50 H I L CNN "Height"
+F6 "755-RB522ES-30T15R" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RB522ES-30T15R?qs=HXFqYaX1Q2wPynfBb3ALiw%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "RB522ES-30T15R" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library
