@@ -49,6 +49,7 @@
 			)
 		)
 	)
+	(solder_mask_margin 0)
 	(attr smd allow_soldermask_bridges)
 	(fp_line
 		(start -0.845 -0.845)
