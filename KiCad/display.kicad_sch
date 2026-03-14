@@ -8,7 +8,7 @@
 		(title "STDC: Display")
 		(date "2026-03-09")
 		(rev "0.0.2")
-		(company "ETH Zurich: Center for Project Based Learning")
+		(company "ETH Zürich: Center for Project Based Learning")
 	)
 	(lib_symbols
 		(symbol "Device:C"

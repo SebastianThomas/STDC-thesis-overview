@@ -605,6 +605,10 @@
       {
         "netclass": "Power",
         "pattern": "*/OC_DC_MOSFETs"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*/Bluetooth_LED*"
       }
     ]
   },
