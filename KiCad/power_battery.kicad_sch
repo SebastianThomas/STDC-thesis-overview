@@ -688,7 +688,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -724,7 +724,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??_* JST_PH_S3B-PH-*_1x03*_P2.00mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6847,7 +6847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
 			(at 21.59 49.53 0)
 			(effects
 				(font
