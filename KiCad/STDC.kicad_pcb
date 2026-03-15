@@ -25122,7 +25122,7 @@
 	(footprint "images:eth_logo_neg"
 		(layer "B.Cu")
 		(uuid "d2ad774f-936f-4035-84c9-82805f99439b")
-		(at 144.630529 122.863044 180)
+		(at 144.530529 122.663044 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -25504,7 +25504,7 @@
 		(uuid "ff60fac8-2110-49af-ad06-03c71e13c343")
 	)
 	(gr_text "Sebastian Thomas\n03/2026"
-		(at 145.2 128.9 0)
+		(at 145.1 128.7 0)
 		(layer "B.SilkS")
 		(uuid "29254d8a-08f3-405b-ab39-73aa72298063")
 		(effects
@@ -25516,7 +25516,7 @@
 		)
 	)
 	(gr_text "STDC v1"
-		(at 151.2 127.2 0)
+		(at 151.1 127 0)
 		(layer "B.SilkS")
 		(uuid "80c07ffb-042b-496d-95ee-2bcdb69cc8bd")
 		(effects
