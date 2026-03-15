@@ -9011,7 +9011,7 @@
 		(descr "Inductor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L2"
-			(at 0 -2.4 90)
+			(at -0.55 -2.25 90)
 			(layer "F.SilkS")
 			(uuid "29cfbc2f-f573-4294-8a21-9935ddf5a515")
 			(effects
@@ -12048,7 +12048,7 @@
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
-			(at 0.0275 -2.35 180)
+			(at -0.0375 -2.3542 180)
 			(layer "F.SilkS")
 			(uuid "16bae996-2e6c-4f81-84ed-d293c99bb700")
 			(effects
@@ -16067,7 +16067,7 @@
 		(descr "JST PH series connector, S3B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J2"
-			(at 3.85 -4.35 180)
+			(at 0 -5.7 180)
 			(layer "F.SilkS")
 			(uuid "8f41d03a-e1e0-43b6-9c5c-e48ea7a8230a")
 			(effects
@@ -24128,7 +24128,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at -1.4375 -2.55 0)
+			(at 1.6625 1.35 0)
 			(layer "F.SilkS")
 			(uuid "3b681eaf-abb1-4395-98df-5ec46a5c547b")
 			(effects
@@ -25502,6 +25502,30 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ff60fac8-2110-49af-ad06-03c71e13c343")
+	)
+	(gr_text "-"
+		(at 133.4 110.4 0)
+		(layer "F.SilkS")
+		(uuid "887ebf71-8d8b-4129-8d78-52e133b28110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 126.2 110.4 0)
+		(layer "F.SilkS")
+		(uuid "f80e10ce-d404-4d1c-9ad4-b19dc3e0b497")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "Sebastian Thomas\n03/2026"
 		(at 145.1 128.7 0)
@@ -37912,6 +37936,17 @@
 				(xy 132.340403 117.647107) (xy 132.774333 117.198809) (xy 134.769323 115.137757) (xy 134.830092 115.103279)
 				(xy 134.85842 115.1) (xy 138.7 115.1) (xy 139.45 114.35)
 			)
+		)
+	)
+	(group ""
+		(uuid "72350db1-4478-4bb9-8b4e-d7ced24abd55")
+		(members "2981ea19-ab3d-4aff-a8a0-b4612068c266" "39f45599-4ece-4f4a-9360-bf556c94d443"
+			"4d0a6bda-07c3-4eeb-819e-60e50a9e25d1" "501cba35-c188-453d-9dfd-82877e33c1eb"
+			"62923fd2-cc42-4087-83f1-8d8420c0c642" "6360ea8d-7601-4fc5-b050-87efd0585772"
+			"660b09ba-0841-42cb-b19b-350961d329ff" "887ebf71-8d8b-4129-8d78-52e133b28110"
+			"96d22747-7180-4a4f-a338-cece32fb6234" "9874394b-2491-4e99-8a01-15c11e8ebd58"
+			"b6153898-97dd-47a8-baa3-70c93a0d39fd" "c1d59b6a-c1b5-4e36-b4f6-315e3d7c4760"
+			"f80e10ce-d404-4d1c-9ad4-b19dc3e0b497"
 		)
 	)
 	(embedded_fonts no)
