@@ -9,4 +9,5 @@
   (lib (name "RB522ES-30T15R")(type "KiCad")(uri "${KIPRJMOD}/libs/RB522ES-30T15R/RB522ES-30T15R.kicad_sym")(options "")(descr "RB480K replacement Schottky Diode"))
   (lib (name "MAX17262REWL_T")(type "KiCad")(uri "${KIPRJMOD}/libs/MAX17262REWL_T/MAX17262REWL_T.kicad_sym")(options "")(descr "Battery Gauge IC"))
   (lib (name "TPS22916CNYFPR")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS22916CNYFPR/TPS22916CNYFPR.kicad_sym")(options "")(descr ""))
+  (lib (name "JST PH S3B Connector")(type "KiCad")(uri "${KIPRJMOD}/libs/Conn-Battery/S3B-PH-SM4-TB_LF__SN_.kicad_sym")(options "")(descr "JST PH S3B Battery Connector"))
 )

@@ -60,8 +60,8 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|125186266|100918762|8a1d47ff-9c3b-4b90-bb11-de8a54e41149|e331ae57-89c4-4762-90ac-c5f21bfeb749",
-          "MountingPoint at Board Edge (incomplete okay)"
+          "copper_edge_clearance|125249171|101037952|8a1d47ff-9c3b-4b90-bb11-de8a54e41149|7731edc4-69e5-42d0-98e8-cd94c0a14015",
+          "Mounting Pad at Board Edge"
         ],
         [
           "silk_edge_clearance|126000000|148500000|bd0ddb37-42bc-43c3-96ee-ea7d6a3f611c|8c1b8f8c-c228-4350-8112-ae45dc1545fe",
@@ -624,7 +624,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "STDC.step",
       "svg": "",
       "vrml": ""
     },

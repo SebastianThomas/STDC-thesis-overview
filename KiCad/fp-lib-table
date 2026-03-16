@@ -10,4 +10,5 @@
   (lib (name "MAX17262REWL_T")(type "KiCad")(uri "${KIPRJMOD}/libs/MAX17262REWL_T")(options "")(descr "Battery Gauge IC"))
   (lib (name "TPS22916CNYFPR")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS22916CNYFPR")(options "")(descr ""))
   (lib (name "images")(type "KiCad")(uri "${KIPRJMOD}/images")(options "")(descr "Images"))
+  (lib (name "JST PH S3B Connector")(type "KiCad")(uri "${KIPRJMOD}/libs/Conn-Battery")(options "")(descr "JST PH S3B Connector"))
 )
