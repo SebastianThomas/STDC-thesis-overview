@@ -41,3 +41,7 @@
 # Local project settings
 **/*.kicad_prl
 
+# KiCad Outputs
+KiCad/STDC-output
+KiCad/STDC-output.zip
+
