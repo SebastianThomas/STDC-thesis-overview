@@ -11,4 +11,5 @@
   (lib (name "TPS22916CNYFPR")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS22916CNYFPR")(options "")(descr ""))
   (lib (name "images")(type "KiCad")(uri "${KIPRJMOD}/images")(options "")(descr "Images"))
   (lib (name "JST PH S3B Connector")(type "KiCad")(uri "${KIPRJMOD}/libs/Conn-Battery")(options "")(descr "JST PH S3B Connector"))
+  (lib (name "FCC FPC 34Pin")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_FH34SRJ-34S-0-5SH_50")(options "")(descr "FCC FPC"))
 )
