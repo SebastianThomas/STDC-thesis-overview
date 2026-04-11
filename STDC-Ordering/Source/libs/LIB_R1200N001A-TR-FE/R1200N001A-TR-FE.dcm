@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R1200N001A-TR-FE
+D PWM Step-up DCDC Converter for PMOLED and General Use with Shutdown Function
+K
+F https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/r1200-ea.pdf
+$ENDCMP
+#
+#End Doc Library

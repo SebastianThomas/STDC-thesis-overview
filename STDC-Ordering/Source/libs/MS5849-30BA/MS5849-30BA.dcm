@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MS5849-30BA
+D Digital Pressure and Altimeter Sensor Modules, Absolute, 306220 mmH2O [12055.9 inH2O], 22501.8 mmHG, 30 bar [435.11 psi], 24 bit ADC, MEAS MS5849
+K
+F https://www.te.com/en/product-20018051-50.html
+$ENDCMP
+#
+#End Doc Library
