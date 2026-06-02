@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "STDC: Power & Battery")
-		(date "2026-03-09")
-		(rev "0.0.2")
+		(date "2026-05-02")
+		(rev "2.0.0")
 		(company "ETH Zürich: Center for Project Based Learning")
 	)
 	(lib_symbols
@@ -3253,6 +3253,12 @@
 		(uuid "3c9a14e8-c024-4ccc-a2e2-b90085f80315")
 	)
 	(junction
+		(at 153.67 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42add673-3639-4fd5-ae21-497ca05ce55f")
+	)
+	(junction
 		(at 139.7 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3385,6 +3391,12 @@
 		(uuid "af26131a-1aac-43c2-819a-a1e32126c432")
 	)
 	(junction
+		(at 158.75 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6be6b5c-fbbe-409e-be41-05f863a03d00")
+	)
+	(junction
 		(at 116.84 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3437,6 +3449,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e41003a4-ec26-423a-a1bf-66b6cc72e1a9")
+	)
+	(junction
+		(at 153.67 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e492637d-bc1a-4fa0-98b3-2d93aaccaa4f")
 	)
 	(junction
 		(at 100.33 168.91)
@@ -3531,6 +3549,16 @@
 			(type default)
 		)
 		(uuid "05d56d21-7bb2-43f6-b204-82527351fecb")
+	)
+	(wire
+		(pts
+			(xy 158.75 38.1) (xy 158.75 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5c0164-e076-463b-bf56-59c57ccd4904")
 	)
 	(wire
 		(pts
@@ -3634,6 +3662,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 49.53) (xy 158.75 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfaadb0-821e-47c7-9099-acc8fc656e51")
+	)
+	(wire
+		(pts
 			(xy 93.98 118.11) (xy 93.98 120.65)
 		)
 		(stroke
@@ -3691,6 +3729,16 @@
 			(type default)
 		)
 		(uuid "200619a9-d4c9-4c2d-8cbb-bbb5d47a54d6")
+	)
+	(wire
+		(pts
+			(xy 153.67 45.72) (xy 153.67 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20aab9b7-2d13-4600-b9b8-a757f3878749")
 	)
 	(wire
 		(pts
@@ -3824,13 +3872,33 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 46.99) (xy 176.53 46.99)
+			(xy 153.67 36.83) (xy 153.67 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f2963e-a1c3-4acb-92cb-4784ff56776a")
+	)
+	(wire
+		(pts
+			(xy 144.78 46.99) (xy 153.67 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "33a2ff80-478d-4565-8dbc-a824a9c8486a")
+	)
+	(wire
+		(pts
+			(xy 153.67 46.99) (xy 176.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ec2159-244b-47cd-8074-08e71af19827")
 	)
 	(wire
 		(pts
@@ -4084,7 +4152,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 49.53) (xy 176.53 49.53)
+			(xy 144.78 49.53) (xy 158.75 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4834,6 +4902,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 35.56) (xy 153.67 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad06bf0-5e40-4083-8282-1ef81123b621")
+	)
+	(wire
+		(pts
 			(xy 142.24 176.53) (xy 140.97 176.53)
 		)
 		(stroke
@@ -4861,6 +4939,16 @@
 			(type default)
 		)
 		(uuid "c6f4e569-32f2-41e3-b279-d84562dfe130")
+	)
+	(wire
+		(pts
+			(xy 158.75 49.53) (xy 176.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71b0edb-57ac-4a43-9f17-05a7eadc080a")
 	)
 	(wire
 		(pts
@@ -5161,6 +5249,16 @@
 			(type default)
 		)
 		(uuid "e8da7d83-059e-4393-acc4-44fe05b462ba")
+	)
+	(wire
+		(pts
+			(xy 158.75 36.83) (xy 153.67 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae94bcd-f4e9-4c2c-8aae-6df4fcbb8a83")
 	)
 	(wire
 		(pts
@@ -6118,6 +6216,73 @@
 			(project "STDC"
 				(path "/643c756f-a801-466b-9148-7370ee6a5e00/6fbfac7b-b6a0-440e-84eb-56b1f74b7943"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14466a7c-dedd-4d6e-b103-dd4a77d79e5d")
+		(property "Reference" "R33"
+			(at 156.718 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 156.718 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 160.528 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b56918c-7f07-4561-90c6-e7d1040b1f8e")
+		)
+		(pin "1"
+			(uuid "e2c7767e-835f-4dec-9abb-90ff8de12010")
+		)
+		(instances
+			(project "STDC"
+				(path "/643c756f-a801-466b-9148-7370ee6a5e00/6fbfac7b-b6a0-440e-84eb-56b1f74b7943"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -7132,6 +7297,71 @@
 			(project "STDC"
 				(path "/643c756f-a801-466b-9148-7370ee6a5e00/6fbfac7b-b6a0-440e-84eb-56b1f74b7943"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 153.67 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52111b74-3d7f-4bec-bd4f-ca02d556898b")
+		(property "Reference" "#PWR047"
+			(at 153.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b3efb2d-e3a4-4120-b078-b89cc25956a4")
+		)
+		(instances
+			(project ""
+				(path "/643c756f-a801-466b-9148-7370ee6a5e00/6fbfac7b-b6a0-440e-84eb-56b1f74b7943"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9316,6 +9546,73 @@
 			(project ""
 				(path "/643c756f-a801-466b-9148-7370ee6a5e00/6fbfac7b-b6a0-440e-84eb-56b1f74b7943"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da732f8d-d6a9-4221-9eee-ad593dae5c0c")
+		(property "Reference" "R32"
+			(at 151.638 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 151.638 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 155.448 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4fefb167-6f82-40ec-8128-056269f03ab7")
+		)
+		(pin "1"
+			(uuid "643f463f-8552-450c-a8df-3ca657ccd2aa")
+		)
+		(instances
+			(project "STDC"
+				(path "/643c756f-a801-466b-9148-7370ee6a5e00/6fbfac7b-b6a0-440e-84eb-56b1f74b7943"
+					(reference "R32")
 					(unit 1)
 				)
 			)

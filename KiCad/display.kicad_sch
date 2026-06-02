@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "STDC: Display")
-		(date "2026-03-09")
-		(rev "0.0.2")
+		(date "2026-05-02")
+		(rev "2.0.0")
 		(company "ETH Zürich: Center for Project Based Learning")
 	)
 	(lib_symbols
@@ -2837,10 +2837,6 @@
 	(no_connect
 		(at 143.51 128.27)
 		(uuid "4b1bbf05-2a22-440c-81c9-c43b02499503")
-	)
-	(no_connect
-		(at 168.91 176.53)
-		(uuid "517a9232-9356-4f6d-84a3-494365670f52")
 	)
 	(no_connect
 		(at 143.51 176.53)

@@ -11,4 +11,5 @@
   (lib (name "TPS22916CNYFPR")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS22916CNYFPR/TPS22916CNYFPR.kicad_sym")(options "")(descr ""))
   (lib (name "JST PH S3B Connector")(type "KiCad")(uri "${KIPRJMOD}/libs/Conn-Battery/S3B-PH-SM4-TB_LF__SN_.kicad_sym")(options "")(descr "JST PH S3B Battery Connector"))
   (lib (name "FCC FPC Connector 34Pin")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_FH34SRJ-34S-0-5SH_50/FH34SRJ-34S-0_5SH_50_.kicad_sym")(options "")(descr "FCC FPC"))
+  (lib (name "SWT SMD Button/Switch")(type "KiCad")(uri "${KIPRJMOD}/libs/LIB_SWT0220-016016GSA/SWT0220-016016GSA.kicad_sym")(options "")(descr ""))
 )

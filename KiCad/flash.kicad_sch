@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "STDC: Flash")
-		(date "2026-03-09")
-		(rev "0.0.2")
+		(date "2026-05-02")
+		(rev "2.0.0")
 		(company "ETH Zürich: Center for Project Based Learning")
 	)
 	(lib_symbols
