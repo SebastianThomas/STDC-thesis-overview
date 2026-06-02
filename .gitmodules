@@ -1,3 +1,6 @@
 [submodule "STDC-STM32-rs"]
 	path = STDC-STM32-rs
 	url = git@github.com:SebastianThomas/STDC-STM32-rs
+[submodule "STDC-thalmann"]
+	path = STDC-thalmann
+	url = git@github.com:SebastianThomas/STDC-thalmann
