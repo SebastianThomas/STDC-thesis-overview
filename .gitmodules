@@ -1,0 +1,3 @@
+[submodule "STDC-STM32-rs"]
+	path = STDC-STM32-rs
+	url = git@github.com:SebastianThomas/STDC-STM32-rs
