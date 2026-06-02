@@ -4,3 +4,6 @@
 [submodule "STDC-thalmann"]
 	path = STDC-thalmann
 	url = git@github.com:SebastianThomas/STDC-thalmann
+[submodule "01_report"]
+	path = 01_report
+	url = git@github.com:SebastianThomas/BachelorThesis
