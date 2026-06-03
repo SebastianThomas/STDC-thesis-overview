@@ -1,9 +1,12 @@
 [submodule "STDC-STM32-rs"]
 	path = STDC-STM32-rs
 	url = git@github.com:SebastianThomas/STDC-STM32-rs
+	branch = main
 [submodule "STDC-thalmann"]
 	path = STDC-thalmann
 	url = git@github.com:SebastianThomas/STDC-thalmann
+	branch = main
 [submodule "01_report"]
 	path = 01_report
 	url = git@github.com:SebastianThomas/BachelorThesis
+	branch = main
