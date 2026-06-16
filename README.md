@@ -14,6 +14,7 @@ git clone --recurse-submodules git@git.ee.ethz.ch:pbl/FS2026/sebastian_thomas_65
 ```bash
 .
 ├── 01_report
+├── 02_presentation
 ├── KiCad
 ├── STDC_C
 ├── STDC-Ordering
