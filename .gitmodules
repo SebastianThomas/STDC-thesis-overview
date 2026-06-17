@@ -10,3 +10,6 @@
 	path = 01_report
 	url = git@github.com:SebastianThomas/BachelorThesis
 	branch = main
+[submodule "KiCad"]
+	path = KiCad
+	url = git@github.com:SebastianThomas/STDC-PCB
