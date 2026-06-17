@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP W25Q32JWSNIQ
-D 32Mb Serial NOR Flash 133MHz SOP8
-K
-F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q32JWSNIQ&type=datasheet
-$ENDCMP
-#
-#End Doc Library

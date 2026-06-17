@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 760308101221
-D WE-WPCC Wireless Power Charging Coil Size  6 x 4.3mm; L = 24 H; Q = 16; IRdc = 0.4 A; Pdc = <5 W;Isat = 1.0 A; RDC = 1150 m
-K
-F https://www.we-online.com/components/products/download/3d_760308101221+%28rev1%29.pdf
-$ENDCMP
-#
-#End Doc Library

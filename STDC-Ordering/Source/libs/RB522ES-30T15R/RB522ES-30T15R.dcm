@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP RB522ES-30T15R
-D Schottky Diodes & Rectifiers SBD 30V Vrm 100mA Id SMD0603
-K
-F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb522es-30-e.pdf
-$ENDCMP
-#
-#End Doc Library
